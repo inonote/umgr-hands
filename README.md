@@ -19,9 +19,9 @@ It's for users who the ac slider is owned and works well but the air tower is no
 1. Install OpenCV2.
 2. Build with Visual Studio.
 3. Install com0com and setup one loopback.
+   - The number of com port used by umgr-hands is configured in `AppImpl.cpp`. (default is COM11)
 4. Setup your webcam.
 5. Connect as UmgrIO to UMIGURI via the loopback COM port.
-The com port number is configured in `AppImpl.cpp`. (The default destination is COM11)
 
 > [!NOTE]
 > You can adjust detection range by changing `rangeTop`, `rangeBottom`, `left`, `right`, `top` and `bottom` in `src/AppImpl.cpp` function at `AppImpl.cpp`. (because this project is incomplete)
