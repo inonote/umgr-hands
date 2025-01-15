@@ -28,7 +28,7 @@ It's for users who the ac slider is owned and works well but the air tower is no
 8. If you want to kill umgr-hands, press <kbd>q</kbd>
 
 > [!NOTE]
-> You can adjust detection range by changing `rangeTop`, `rangeBottom`, `left`, `right`, `top` and `bottom` in `src/AppImpl.cpp` function at `AppImpl.cpp`. (because this project is incomplete)
+> You can adjust detection range by changing `rangeTop`, `rangeBottom`, `left`, `right`, `top` and `bottom` in `umgrhands::AppImpl::detectHands` function at `AppImpl.cpp`. (because this project is incomplete)
 
 ## License
 MIT License
